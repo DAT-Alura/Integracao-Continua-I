@@ -55,3 +55,26 @@
 - Pode ser usado a partir de qualquer branch
 - __Ajuda a manter o histórico de commits linear__
 > Alternativa correta! Esse é a grande vantagem do rebase. Os commits aparecem como eles fossem executados um após do outro.
+
+## Aula 3
+
+1 - Vimos que existem categorias de testes diferentes. Por exemplo: testes de unidade, testes de integração e testes funcionais. Entre várias outras... mas categorizar os testes é importante pois:
+- Existe um desenvolvedor responsável para cada categoria
+- __Podemos rodar os testes em etapas, com base na categoria__
+> Alternativa correta! Dessa forma, podemos rodar com facilidade primeiro os testes de unidade, depois os de integração, etc. Os testes de unidade são os mais rápidos e devem garantir uma boa cobertura de teste.
+- Facilita a manutenção dos testes
+
+2 - Qual técnica é essencial, quando praticamos Integração Contínua?
+- Test Driven Development
+- __Testes automatizados__
+> Alternativa correta! As integrações do novo código no repositório precisam ser verificadas o tempo todo. Isso só é possível com uma bateria de testes, executadas de maneira automatizada, É isso que vai garantir a corretude do código.
+- Debugging
+- Refatorações constantes
+
+3 - Quais das afirmações abaixo são consideradas boas práticas relacionadas ao build?
+- __Otimize o build__
+> Alternativa correta! Builds lentos vão afetar negativamente a integração contínua, atrasando commits e diminuindo o feedback. Otimize o build para receber feedback mais rápido!
+- Use para cada ambiente um script de build separado
+- Rode o build sempre até o final, mesmo com falha nos testes
+- __Use um single command build__
+> Alternativa correta! O build deve ser simples de executar, idealmente através de um único comando (single command build).
