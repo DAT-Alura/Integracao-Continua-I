@@ -101,3 +101,20 @@
 - É responsabilidade do Scrum Master
 - É responsabilidade do QA (Quality Assurance)
 - É responsabilidade do desenvolvedor que fez o commit em questão
+
+## Aula 5
+
+1 - Ambos, tanto integração contínua quanto a entrega contínua, visam diminuir o risco no desenvolvimento de software.
+Nessa aula identificamos alguns padrões e práticas da entrega contínua. Sinalize a afirmação que realmente ajuda a diminuir essa risco:
+- Deploys supervisionados por pessoas
+- Deploys agendados, se for preciso com downtime definido
+- __Deploys frequentes e menores__
+> Alternativa correta! Como a integração contínua visa commits menores e frequentes, a entrega contínua prega deploys menores e frequentes.
+- Deploys planejados no final de várias iterações de desenvolvimento
+
+2 - O termo DevOps foi mencionado pela primeira vez em 2009, em uma palestra chamada de 10+ Deploys Per Day, por uma dupla que trabalhava no Flickr. O termo vem da junção das palavras Development e Operations, mas qual é a real definição desse termo?
+- É um processo bem definido, que visa acelerar o "time to market" do software
+- É uma ferramenta que permite criar pipelines de implantação
+- É um cargo que mistura conhecimento de desenvolvimento e operações
+- __É um movimento cultural__
+> Alternativa correta! DevOps é sobre colaboração, sobre melhoria, feedback e aprendizagem contínua. Ou seja, é muito mais um mudança cultural do que o uso de uma nova ferramenta ou um processo específico.
