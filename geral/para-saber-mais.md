@@ -58,3 +58,23 @@ Para o configuration management e provisioning podemos mencionar:
 O configuration management / provisioning é sobre a instalação e manutenção da maquina.
 
 Na Alura temos cursos específicos para a maioria das ferramentas.
+
+## Servidores do mercado
+
+Listamos abaixo alguns servidores de integração disponíveis no mercado. Isso não é uma lista ordenada por popularidade e algum outro critério.
+
+Alguns servidores são opensource, outros não, alguns são pagos ou podem ser alocados na nuvem e outros só existem para nuvem ou instalação local.
+
+Em geral, não existe uma bala de prata e a melhor ferramenta é aquela que te serve bem:
+
+- [Jenkins](https://jenkins.io/)
+- [GoCD](https://www.gocd.org/)
+- [Bamboo](https://www.atlassian.com/br/software/bamboo)
+- [Travis CI](https://travis-ci.org/)
+- [Team City](https://www.jetbrains.com/teamcity/)
+- [Circle CI](https://circleci.com/)
+- [Gitlab](https://about.gitlab.com/product/continuous-integration/)
+- [AWS Code Pipeline](https://aws.amazon.com/codepipeline/)
+- [Azure](https://azure.microsoft.com/pt-br/services/devops/server/)
+
+entre outras possibilidades!

@@ -78,3 +78,26 @@
 - Rode o build sempre até o final, mesmo com falha nos testes
 - __Use um single command build__
 > Alternativa correta! O build deve ser simples de executar, idealmente através de um único comando (single command build).
+
+## Aula 4
+
+1 - Com qual frequência devemos iniciar a construção do software através do servidor de integração contínua?
+- __A cada commit (commit build)__
+> Alternativa correta! Idealmente a cada commit. Isso pode ser um desafio quando temos uma frequência alta de commits. Nesse caso pode ser necessário executar os builds em paralelo.
+- Sempre à noite ou madrugada (nigthly builds)
+- A cada 10 minutos (periodic build)
+
+2 - Além de iniciar o build, quais são as responsabilidades do servidor de integração?
+- __Publicar o artefato de build o repositório__
+> Alternativa correta! O servidor de integração publica ou disponibiliza o artefato de build (jar, war, gem, dll, image etc). Dessa forma, os desenvolvedores sempre podem baixar a última versão.
+- __Publicar o status do último build do projeto__
+> Alternativa correta! Muitas vezes, o servidor de integração até publica um histórico sobre os últimos builds e mostra mais informações sobre o tempo do build, testes, etc.
+- Definir a estrutura de diretórios do projeto
+- Reverter o commit que quebrou o build
+
+3 - De quem é a responsabilidade de arrumar o projeto quando a construção do software falhou?
+- __É responsabilidade de todos da equipe__
+> Alternativa correta! Arrumar o build quebrado é responsabilidade de toda equipe, com máxima prioridade.
+- É responsabilidade do Scrum Master
+- É responsabilidade do QA (Quality Assurance)
+- É responsabilidade do desenvolvedor que fez o commit em questão
